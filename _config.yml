@@ -28,9 +28,12 @@ twitter_username: sagginsz
 github_username:  saggins
 
 # Build settings
-theme: minima
+
 plugins:
   - jekyll-feed
+
+#scss stuff
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

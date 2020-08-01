@@ -4,3 +4,10 @@ _site
 .jekyll-metadata
 vendor
 node_modules
+gemfiles/
+Gemfile.lock
+node_modules/
+vendor/bundle/
+vendor/cache/
+vendor/gems/
+vendor/ruby/
