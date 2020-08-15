@@ -23,10 +23,17 @@ email: blog@sagg.in
 description: >- # this means to ignore newlines until "baseurl:"
   The Sagg Blog is where all of the sagging projects get blogged. Writeups and more stuff. 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: sagginsz
+url: "blog.sagg.in" # the base hostname & protocol for your site, e.g. http://example.com
+twitter:
+  username: sagginsz
+  card: I use twitter, sometimes
 github_username:  saggins
 
+social:
+  name: Sangmin Chun
+  links:
+    - https://github.com/saggins
+    - https://twitter.com/sagginsz
 # Build settings
 
 plugins:
