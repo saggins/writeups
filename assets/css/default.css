@@ -7,4 +7,10 @@
 p img {
 	max-width: 50vw;
 }
-/**https://www.zeldman.com/2012/03/01/replacing-the-9999px-hack-new-image-replacement/
+/**https://www.zeldman.com/2012/03/01/replacing-the-9999px-hack-new-image-replacement/(*/
+pre code {
+	color: #e83e8c;
+}
+pre code span {
+	color: #e83e8c;
+}
