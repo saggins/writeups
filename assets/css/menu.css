@@ -1,5 +1,10 @@
 .center {
     text-align: left;
     padding-left: 20%;
+}
+.menu-category {
+    font-size: xx-large;
+}
+.post-link {
     font-size: xx-large;
 }
