@@ -18,3 +18,7 @@ layout: menu
         </a> <br>
     {%- endfor -%}
 {%- endif -%}
+
+<a class="post-link" href="../">
+    | Back 
+</a> <br>
