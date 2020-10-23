@@ -1,43 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  {%- include head.html -%}
+{%- include head.html -%}
 
-  <body class="noisy">
+<body class="noisy">
 
-    </div>
-    {%- include header.html -%}
-    
-    <div class="emblem">
-      <span class="icon-information">test1</span>
-    </div>
-    <div class="frame">
-      <main class="page-content" aria-label="Content">
+  </div>
+  {%- include header.html -%}
+
+  <div class="emblem">
+    <span class="icon-information">test1</span>
+  </div>
+  <div class="frame">
+    <main class="page-content" aria-label="Content">
+      <div class="container">
 
         <div class="wrapper">
-          <div  class="piece nonoutput">
-            <div class="menu-header">
-              <strong>
-                <span> Welcome to SAGG.IN Industreies (TM) SAGGING OPERATING SYSTEM </span>
-                <br>
-                <span> COPYRIGHT 2020-2077 SAGG.IN INDUSTRY</span>
-              </strong>
-
+          <div class="piece nonoutput">
+            <div class="row">
+              <div class="col menu-header">
+                <strong class="text-center">
+                  <span> Welcome to SAGG.IN Industreies (TM) SAGGING OPERATING SYSTEM </span>
+                  <br>
+                  <span> COPYRIGHT 2020-2077 SAGG.IN INDUSTRY</span>
+                </strong>
+              </div>
             </div>
-            
-              {{ content }}
- 
+
+            {{ content }}
+
           </div>
         </div>
 
-      </main>
-      <div class="piece scanln noclick"></div>
-      <div class="piece glowed glow noclick"></div> 
-    </div>
+      </div>
+    </main>
+    <div class="piece scanln noclick"></div>
+    <div class="piece glowed glow noclick"></div>
+  </div>
 
-    
-    {%- include footer.html -%}
 
-  </body>
+  {%- include footer.html -%}
+
+</body>
 
 </html>
