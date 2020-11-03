@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The mystery of the blank youtube title"
+title:  "‍‎‏‌"
 
 ---
 ![MysteryVideo]({{"/assets/img/mysteryVideo.png" | base_url}})
