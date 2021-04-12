@@ -1,16 +1,6 @@
 ---
 layout: menu
 ---
-
-
-<a class="post-link" href="/postlanding">
-    | Blog Posts
-</a> <br>
-
-<a class="post-link" href="/projects">
-    | Projects
-</a> <br>
-
-<a class="post-link" href="/contact">
-    | Contact
-</a> <br>
+{%- for item in site.data.index.docs -%}
+\> <a class="post-link" href="{{ item.url }}"> {{ item.title }}</a><br>
+{%- endfor -%}

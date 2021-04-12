@@ -1,0 +1,8 @@
+# https://jekyllrb.com/tutorials/navigation/#scenario-1-basic-list Cheers
+docs:
+  - title: Blog Posts
+    url: /menu/postlanding
+  - title: Projects
+    url: /menu/projects
+  - title: Contact
+    url: /menu/contact
